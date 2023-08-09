@@ -8,6 +8,7 @@ For data exploration and model development, I utilized Jupyter Notebook, a versa
 This allowed me to seamlessly integrate the house price dataset and predict prices for new houses.
 Additionally, I've taken advantage of Visual Studio Code (VS Code) to create an engaging and user-friendly frontend for the website.
 This frontend incorporates HTML, CSS, and JavaScript, ensuring a seamless and appealing user experience.
+I took help to learn Machine Learning,html,css and js from youtube,google and some articles as well.
 
 In summary, I've combined machine learning methodologies, data preprocessing using libraries like pandas and numpy,visualization using matplotlib, 
 and code execution in Jupyter Notebook.These efforts culminated in a website frontend developed with HTML, CSS, and JavaScript, 
