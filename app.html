@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Price Predictor</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="container">
+    <h1>Home Price Predictor</h1>
+    <div class="input-container">
+        <label for="uiSqft">Total Area (Square Feet):</label>
+        <input type="text" id="uiSqft" class="input-field" value="1000">
+    </div>
+    <div class="input-container">
+        <label for="uiBHK">BHK (Bedrooms):</label>
+        <div class="radio-buttons">
+            <input type="radio" id="radio-bhk-1" name="uiBHK" value="1">
+            <label for="radio-bhk-1">1</label>
+            <input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked>
+            <label for="radio-bhk-2">2</label>
+            <input type="radio" id="radio-bhk-3" name="uiBHK" value="3">
+            <label for="radio-bhk-3">3</label>
+            <input type="radio" id="radio-bhk-4" name="uiBHK" value="4">
+            <label for="radio-bhk-4">4</label>
+            <input type="radio" id="radio-bhk-5" name="uiBHK" value="5">
+            <label for="radio-bhk-5">5</label>
+        </div>
+    </div>
+    <div class="input-container">
+        <label for="uiBathrooms">Bathrooms:</label>
+        <div class="radio-buttons">
+            <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1">
+            <label for="radio-bath-1">1</label>
+            <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked>
+            <label for="radio-bath-2">2</label>
+            <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3">
+            <label for="radio-bath-3">3</label>
+            <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4">
+            <label for="radio-bath-4">4</label>
+            <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5">
+            <label for="radio-bath-5">5</label>
+        </div>
+    </div>
+    <div class="input-container">
+        <label for="uiLocations">Location:</label>
+        <select class="input-field" id="uiLocations">
+            <option value="" disabled selected>Choose a Location</option>
+            <option>Electronic City</option>
+            <option>Rajaji Nagar</option>
+        </select>
+    </div>
+    <button class="calculate-button" onclick="onClickedEstimatePrice()">Estimate Price</button>
+    <div id="uiEstimatedPrice" class="result">
+        <h2>Estimated Price:</h2>
+        <p id="estimatedPrice">-</p>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
